@@ -2,7 +2,7 @@ import os
 import shutil
 
 #######################
-desktop_dir = "C:/Users/basti/OneDrive/Desktop"
+desktop_dir = os.path.dirname(os.path.realpath(__file__))
 #######################
 
 png_dir = desktop_dir + "/png_folder/"
